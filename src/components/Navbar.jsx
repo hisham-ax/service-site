@@ -27,7 +27,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#contact">اتصل بنا</a>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to="/">الرئيسية</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/service-site">الرئيسية</NavLink>
                             </li>
                             <li className="nav-item">
                             {/* <NavLink className="nav-link" to="/contactus">اتصل بنا</NavLink> */}
