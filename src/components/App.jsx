@@ -151,7 +151,7 @@ import NotFound from './NotFound'
                 <div className="container">
                     <Routes>
                         {/* Basic Routes */}
-                        <Route path='/service-site' element={<Home services={this.state.services}
+                        <Route path='/' element={<Home services={this.state.services}
                         onSections={this.handleSections}/>} />
                         {/* <Route path='/services' element={<Services/>}/> */}
                         <Route path='/about' element={<About/>}/>
