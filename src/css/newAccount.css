@@ -1,0 +1,93 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body{ background-color:white; margin: 0; padding: 0}
+/* styling */
+.create-account{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    direction: rtl;
+}
+.create-account .input{width: 40%; margin: auto;}
+.create-account .head span{color: #9763C8;}
+.create-account form{width: 100%;}
+.create-account .input .radio{padding: 10px 0; font-size: 18px; font-weight: bold;}
+.create-account .input .radio input{margin-left: 5px;}
+.create-account .input form label{ font-size: 18px;}
+.create-account .input form #freelancer{margin-left: 5px;}
+.create-account .input form #client{
+   margin: 5px 100px 5px 5px;
+   font-size: 18px;
+}
+.create-account .input .form-client{margin-top: 20px;}
+.create-account .input .form-client input{
+    display:block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    outline-color: #9763C8;
+    outline-width: 1px;
+    outline-offset: 0;
+}
+.create-account form .freelance{display: none;}
+.create-account form .freelance>div{width: 100px;}
+.create-account form .freelance div img{ 
+    position: relative; 
+    right: -50px;
+    z-index: -1;
+}
+.create-account form .freelance div label{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.create-account form #freelancer:checked ~ .freelance{display: block;}
+.create-account form input[type='file']{
+    opacity: 0;
+    width: 50px;
+}
+.create-account .input input[type='submit']{
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto;
+    background-color: #7639AE;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* styling */
+
+/* Start My Framework */
+
+.float-right{
+    float: right
+}
+.text-center{
+    text-align: center
+}
+.text-right{
+    text-align: right
+}
+.container{
+    width:100%;
+    height: 100%
+}
+.over-flow{
+    overflow: hidden
+}
+.clear-float{
+    clear: both
+}
+/* End My Framework */
